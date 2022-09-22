@@ -3,13 +3,7 @@
 #define EIGEN_INITIALIZE_MATRICES_BY_ZERO
 
 #include <Eigen/Core>
-#include <mode/iterator/fixed_step_size_iterator.hpp>
-#include <mode/method/multi_stage/explicit_multi_stage_method.hpp>
-#include <mode/method/multi_step/explicit_multi_step_method.hpp>
-#include <mode/problem/initial_value_problem.hpp>
-#include <mode/tableau/butcher/explicit/tsitouras_5.hpp>
-#include <mode/tableau/multi_step/adams_bashforth.hpp>
-//#include <mode/mode.hpp>
+#include <mode/mode.hpp>
 
 TEST_CASE("Lorenz")
 {
