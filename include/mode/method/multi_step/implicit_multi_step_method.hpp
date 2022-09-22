@@ -10,7 +10,7 @@
 namespace mode
 {
 template <typename tableau_type_, problem problem_type_, root_finder root_finder_ = newton_root_finder<problem_type_>>
-class implicit_multi_stage_method
+class implicit_multi_step_method
 {
 public:
   using tableau_type = tableau_type_;
